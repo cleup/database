@@ -1,0 +1,30 @@
+{
+    "name": "cleup/database",
+    "version": "1.0.1",
+    "description": "Fast and elegant library for working with a database",
+    "keywords": [
+        "database",
+        "db",
+        "php-db",
+        "mysql",
+        "pgsql",
+        "sqlite",
+        "mssql"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cleup\\Core\\Database\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduard Y",
+            "email": "dev@priveted.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    }
+}
